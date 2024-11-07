@@ -7,6 +7,6 @@ public class Carro extends Vehiculo {
 
     @Override
     public double calcularTarifa(long horas) {
-        return horas * 2000; // Tarifa de ejemplo para carro
+        return horas * 3000; // Tarifa de ejemplo para carro
     }
 }
